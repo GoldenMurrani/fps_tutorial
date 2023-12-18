@@ -1542,3 +1542,376 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.12.18-04.28.46:220][658]LogPlayLevel: Display: Destroying online subsystem :Context_16
 [2023.12.18-04.29.10:229][240]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
 [2023.12.18-04.30.22:386][460]LogViewport: Scene viewport resized to 1288x853, mode Windowed.
+[2023.12.18-04.34.45:470][353]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.12.18-04.34.45:480][353]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.12.18-04.34.45:484][353]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.12.18-04.34.45:504][354]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.12.18-04.34.52:640][192]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_Target
+[2023.12.18-04.34.52:644][192]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.12.18-04.35.00:016][ 55]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2023.12.18-04.35.00:020][ 55]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.18-04.35.00:070][ 55]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/Blueprints/BP_Target" FILE="../../../../../../Users/Yousif/Desktop/UE/FPS_Tutorial/Content/FirstPerson/Blueprints/BP_Target.uasset" SILENT=true
+[2023.12.18-04.35.00:072][ 55]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_Target
+[2023.12.18-04.35.00:072][ 55]LogSavePackage: Moving '../../../../../../Users/Yousif/Desktop/UE/FPS_Tutorial/Saved/BP_Target65EBD0DA4122E98D7CF29D8556AB81C5.tmp' to '../../../../../../Users/Yousif/Desktop/UE/FPS_Tutorial/Content/FirstPerson/Blueprints/BP_Target.uasset'
+[2023.12.18-04.35.00:078][ 55]LogFileHelpers: InternalPromptForCheckoutAndSave took 57 ms (total: 165 ms)
+[2023.12.18-04.35.00:080][ 55]AssetCheck: New page: Asset Save: BP_Target
+[2023.12.18-04.35.00:080][ 55]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_Target.BP_Target
+[2023.12.18-04.35.14:900][823]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/BP_Target.BP_Target
+[2023.12.18-04.35.14:900][823]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.18-04.35.14:900][823]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.18-04.35.14:963][823]LogViewport: Scene viewport resized to 1031x828, mode Windowed.
+[2023.12.18-04.35.58:949][263]LogShaderCompilers: Display: ================================================
+[2023.12.18-04.35.58:949][263]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.12.18-04.35.58:949][263]LogShaderCompilers: Display: Total job queries 66, among them cache hits 23 (34.85%)
+[2023.12.18-04.35.58:949][263]LogShaderCompilers: Display: Tracking 42 distinct input hashes that result in 28 distinct outputs (66.67%)
+[2023.12.18-04.35.58:949][263]LogShaderCompilers: Display: RAM used: 880.82 KiB of 3.20 GiB budget. Usage: 0.03%
+[2023.12.18-04.35.58:949][263]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.12.18-04.35.58:949][263]LogShaderCompilers: Display: Shaders Compiled: 42
+[2023.12.18-04.35.58:949][263]LogShaderCompilers: Display: Jobs assigned 43, completed 42 (97.67%)
+[2023.12.18-04.35.58:949][263]LogShaderCompilers: Display: Average time worker was idle: 254.58 s
+[2023.12.18-04.35.58:949][263]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.10 s
+[2023.12.18-04.35.58:949][263]LogShaderCompilers: Display: Job execution time: average 0.27 s, max 0.85 s
+[2023.12.18-04.35.58:949][263]LogShaderCompilers: Display: Job life time (pending + execution): average 0.32 s, max 0.85
+[2023.12.18-04.35.58:949][263]LogShaderCompilers: Display: Shader code size: average 32.636 KiB, min 3.699 KiB, max 45.199 KiB
+[2023.12.18-04.35.58:949][263]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 3.47 s
+[2023.12.18-04.35.58:949][263]LogShaderCompilers: Display: Jobs were issued in 43 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.12.18-04.35.58:949][263]LogShaderCompilers: Display: Average processing rate: 12.09 jobs/sec
+[2023.12.18-04.35.58:949][263]LogShaderCompilers: Display: Total thread time: 4.748 s
+[2023.12.18-04.35.58:949][263]LogShaderCompilers: Display: Total thread preprocess time: 0.579 s
+[2023.12.18-04.35.58:949][263]LogShaderCompilers: Display: Percentage time preprocessing: 12.21%
+[2023.12.18-04.35.58:949][263]LogShaderCompilers: Display: Effective parallelization: 1.37 (times faster than compiling all shaders on one thread). Compare with number of workers: 16
+[2023.12.18-04.35.58:949][263]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.12.18-04.35.58:949][263]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    8 times, average 0.14 sec, max 0.15 sec, min 0.13 sec)
+[2023.12.18-04.35.58:949][263]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    2 times, average 0.13 sec, max 0.15 sec, min 0.12 sec)
+[2023.12.18-04.35.58:949][263]LogShaderCompilers: Display:                                          TDepthOnlyVS<false> (compiled    1 times, average 0.13 sec, max 0.13 sec, min 0.13 sec)
+[2023.12.18-04.35.58:949][263]LogShaderCompilers: Display:                                                  FVelocityVS (compiled    2 times, average 0.12 sec, max 0.13 sec, min 0.12 sec)
+[2023.12.18-04.35.58:949][263]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    9 times, average 0.12 sec, max 0.14 sec, min 0.12 sec)
+[2023.12.18-04.35.58:949][263]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.12.18-04.35.58:949][263]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 23.33% of total time (compiled    9 times, average 0.12 sec, max 0.14 sec, min 0.12 sec)
+[2023.12.18-04.35.58:949][263]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 22.96% of total time (compiled    8 times, average 0.14 sec, max 0.15 sec, min 0.13 sec)
+[2023.12.18-04.35.58:949][263]LogShaderCompilers: Display:                                                 FLumenCardVS - 20.35% of total time (compiled    8 times, average 0.12 sec, max 0.14 sec, min 0.11 sec)
+[2023.12.18-04.35.58:949][263]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 9.76% of total time (compiled    8 times, average 0.06 sec, max 0.07 sec, min 0.05 sec)
+[2023.12.18-04.35.58:949][263]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap - 5.67% of total time (compiled    2 times, average 0.13 sec, max 0.15 sec, min 0.12 sec)
+[2023.12.18-04.35.58:949][263]LogShaderCompilers: Display: ================================================
+[2023.12.18-04.36.49:754][  8]BlueprintLog: New page: Compile BP_Target
+[2023.12.18-04.36.49:771][  8]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2023.12.18-04.37.02:202][422]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.18-04.37.05:737][822]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/FirstPerson/Blueprints/BP_Target.BP_Target_C
+[2023.12.18-04.37.05:737][822]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/FirstPerson/Blueprints/BP_Target.BP_Target_C
+[2023.12.18-04.37.05:738][822]LogActorFactory: Actor Factory spawned Blueprint /Game/FirstPerson/Blueprints/BP_Target.BP_Target as actor: BP_Target_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Target_C_0
+[2023.12.18-04.37.05:739][822]LogActorFactory: Actor Factory spawned Blueprint /Game/FirstPerson/Blueprints/BP_Target.BP_Target as actor: BP_Target_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Target_C_0
+[2023.12.18-04.37.08:141][107]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/FirstPerson/Blueprints/BP_Target.BP_Target_C
+[2023.12.18-04.37.08:141][107]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/FirstPerson/Blueprints/BP_Target.BP_Target_C
+[2023.12.18-04.37.08:144][107]LogActorFactory: Actor Factory spawned Blueprint /Game/FirstPerson/Blueprints/BP_Target.BP_Target as actor: BP_Target_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Target_C_UAID_2C0DA7FA3191D1C601_1520089031
+[2023.12.18-04.37.08:145][107]LogActorFactory: Actor Factory spawned Blueprint /Game/FirstPerson/Blueprints/BP_Target.BP_Target as actor: BP_Target_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Target_C_UAID_2C0DA7FA3191D1C601_1520089031
+[2023.12.18-04.38.32:071][792]Cmd: MODE GRID=0
+[2023.12.18-04.38.53:183][246]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2023.12.18-04.38.53:187][246]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.18-04.38.53:239][246]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/9S/GVQ7JJNL1OEVOFKVFNHFDH
+[2023.12.18-04.38.53:239][246]LogSavePackage: Moving '../../../../../../Users/Yousif/Desktop/UE/FPS_Tutorial/Saved/GVQ7JJNL1OEVOFKVFNHFDHCDBFE7D34B505B353C98C9B6C5ACF0EC.tmp' to '../../../../../../Users/Yousif/Desktop/UE/FPS_Tutorial/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/9S/GVQ7JJNL1OEVOFKVFNHFDH.uasset'
+[2023.12.18-04.38.53:241][246]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/H5/PKNYIDNXTPA1500RRZSUI7
+[2023.12.18-04.38.53:241][246]LogSavePackage: Moving '../../../../../../Users/Yousif/Desktop/UE/FPS_Tutorial/Saved/PKNYIDNXTPA1500RRZSUI75450C77344F2B647F85146B6D64FDAC5.tmp' to '../../../../../../Users/Yousif/Desktop/UE/FPS_Tutorial/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/H5/PKNYIDNXTPA1500RRZSUI7.uasset'
+[2023.12.18-04.38.53:276][246]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/Blueprints/BP_Target" FILE="../../../../../../Users/Yousif/Desktop/UE/FPS_Tutorial/Content/FirstPerson/Blueprints/BP_Target.uasset" SILENT=true
+[2023.12.18-04.38.53:278][246]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_Target
+[2023.12.18-04.38.53:279][246]LogSavePackage: Moving '../../../../../../Users/Yousif/Desktop/UE/FPS_Tutorial/Saved/BP_Target42EE52AE4F3E047D66501689BFDBE0EB.tmp' to '../../../../../../Users/Yousif/Desktop/UE/FPS_Tutorial/Content/FirstPerson/Blueprints/BP_Target.uasset'
+[2023.12.18-04.38.53:283][246]LogFileHelpers: InternalPromptForCheckoutAndSave took 95 ms (total: 261 ms)
+[2023.12.18-04.38.53:285][246]AssetCheck: New page: Asset Save: multiple assets
+[2023.12.18-04.38.53:285][246]LogContentValidation: Display: Validating /Game/FirstPerson/Blueprints/BP_Target.BP_Target_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032
+[2023.12.18-04.38.53:285][246]LogContentValidation: Display: Validating /Game/FirstPerson/Blueprints/BP_Target.BP_Target_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Target_C_UAID_2C0DA7FA3191D1C601_1520089031
+[2023.12.18-04.38.53:285][246]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_Target.BP_Target
+[2023.12.18-04.39.14:547][263]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2023.12.18-04.39.14:547][263]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.18-04.39.50:993][437]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/BP_Target.BP_Target
+[2023.12.18-04.39.50:993][437]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.18-04.39.50:993][437]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.18-04.40.15:583][688]LogViewport: Scene viewport resized to 1031x828, mode Windowed.
+[2023.12.18-04.41.37:888][ 93]LogSlate: Window 'Color Picker' being destroyed
+[2023.12.18-04.41.40:953][411]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2023.12.18-04.41.40:954][411]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.013
+[2023.12.18-04.41.40:954][411]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/FirstPerson/Blueprints/BP_Target] ([2] browsable assets)...
+[2023.12.18-04.41.40:983][411]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPerson/Blueprints/BP_Target.BP_Target]
+[2023.12.18-04.41.40:983][411]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_Target]
+[2023.12.18-04.41.40:986][411]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/Blueprints/BP_Target_Auto2
+[2023.12.18-04.41.40:986][411]LogSavePackage: Moving '../../../../../../Users/Yousif/Desktop/UE/FPS_Tutorial/Saved/BP_Target_Auto255C3A6DE476E4C7074B39E82C9A3B11B.tmp' to '../../../../../../Users/Yousif/Desktop/UE/FPS_Tutorial/Saved/Autosaves/Game/FirstPerson/Blueprints/BP_Target_Auto2.uasset'
+[2023.12.18-04.41.40:986][411]LogFileHelpers: Auto-saving content packages took 0.032
+[2023.12.18-04.42.10:309][694]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.18-04.42.10:312][694]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.12.18-04.42.10:312][694]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2023.12.18-04.42.10:313][694]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 1 ms (total: 4 ms)
+[2023.12.18-04.42.10:313][694]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.12.18-04.42.10:313][694]LogPlayLevel: [PlayLevel] Compiling BP_Target before play...
+[2023.12.18-04.42.10:338][694]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2023.12.18-04.42.10:339][694]LogPlayLevel: PlayLevel: Blueprint regeneration took 25 ms (1 blueprints)
+[2023.12.18-04.42.10:339][694]PIE: New page: PIE session: FirstPersonMap (Dec 17, 2023, 6:42:10 PM)
+[2023.12.18-04.42.10:339][694]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.12.18-04.42.10:342][694]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002681s)
+[2023.12.18-04.42.10:342][694]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.002707s)
+[2023.12.18-04.42.10:350][694]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2023.12.18-04.42.10:351][694]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.18-04.42.10:351][694]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.18-04.42.10:351][694]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.12.18-04.42.10:351][694]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.12.18-04.42.10:351][694]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.12.18-04.42.10:351][694]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.12.18-04.42.10:351][694]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.12.18-04.42.10:352][694]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2023.12.18-04.42.10:352][694]LogWorldPartition: Display: WorldPartition initialize took 768 us (total: 42 ms)
+[2023.12.18-04.42.10:352][694]LogPlayLevel: PIE: World Init took: (0.001670s)
+[2023.12.18-04.42.10:352][694]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2023.12.18-04.42.10:352][694]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.18-04.42.10:352][694]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.18-04.42.10:352][694]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.18-04.42.10:352][694]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.18-04.42.10:352][694]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.12.18-04.42.10:352][694]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.18-04.42.10:352][694]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.12.18-04.42.10:352][694]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.18-04.42.10:353][694]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.18-04.42.10:353][694]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.18-04.42.10:353][694]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.18-04.42.10:354][694]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.18-04.42.10:367][694]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- YM’s Beats)
+[2023.12.18-04.42.10:367][694]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.18-04.42.10:367][694]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.18-04.42.10:367][694]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.18-04.42.10:368][694]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2023.12.18-04.42.10:368][694]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2023.12.18-04.42.10:368][694]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2023.12.18-04.42.10:368][694]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2023.12.18-04.42.10:368][694]LogInit: FAudioDevice initialized with ID 5.
+[2023.12.18-04.42.10:368][694]LogAudio: Display: Audio Device (ID: 5) registered with world 'FirstPersonMap'.
+[2023.12.18-04.42.10:368][694]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2023.12.18-04.42.10:401][694]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.18-04.42.10:401][694]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.12.18-04.42.10:402][694]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2023.12.17-23.42.10
+[2023.12.18-04.42.10:403][694]LogWorld: Bringing up level for play took: 0.001536
+[2023.12.18-04.42.10:404][694]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2023.12.18-04.42.10:407][694]PIE: Server logged in
+[2023.12.18-04.42.10:407][694]PIE: Play in editor total start time 0.095 seconds.
+[2023.12.18-04.42.10:418][694]LogViewport: Scene viewport resized to 835x498, mode Windowed.
+[2023.12.18-04.42.15:296][237]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1520089031] Target Hit!
+[2023.12.18-04.42.18:988][680]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.21:691][  4]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1520089031] Target Hit!
+[2023.12.18-04.42.21:691][  4]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1520089031] Target Hit!
+[2023.12.18-04.42.21:700][  5]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1520089031] Target Hit!
+[2023.12.18-04.42.21:700][  5]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1520089031] Target Hit!
+[2023.12.18-04.42.21:716][  7]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1520089031] Target Hit!
+[2023.12.18-04.42.21:716][  7]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1520089031] Target Hit!
+[2023.12.18-04.42.21:725][  8]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1520089031] Target Hit!
+[2023.12.18-04.42.21:725][  8]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1520089031] Target Hit!
+[2023.12.18-04.42.21:733][  9]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1520089031] Target Hit!
+[2023.12.18-04.42.21:733][  9]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1520089031] Target Hit!
+[2023.12.18-04.42.21:741][ 10]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1520089031] Target Hit!
+[2023.12.18-04.42.21:741][ 10]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1520089031] Target Hit!
+[2023.12.18-04.42.21:750][ 11]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1520089031] Target Hit!
+[2023.12.18-04.42.21:750][ 11]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1520089031] Target Hit!
+[2023.12.18-04.42.21:758][ 12]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1520089031] Target Hit!
+[2023.12.18-04.42.21:758][ 12]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1520089031] Target Hit!
+[2023.12.18-04.42.21:766][ 13]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1520089031] Target Hit!
+[2023.12.18-04.42.21:766][ 13]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1520089031] Target Hit!
+[2023.12.18-04.42.21:774][ 14]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1520089031] Target Hit!
+[2023.12.18-04.42.21:774][ 14]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1520089031] Target Hit!
+[2023.12.18-04.42.21:782][ 15]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1520089031] Target Hit!
+[2023.12.18-04.42.21:782][ 15]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1520089031] Target Hit!
+[2023.12.18-04.42.21:791][ 16]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1520089031] Target Hit!
+[2023.12.18-04.42.21:791][ 16]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1520089031] Target Hit!
+[2023.12.18-04.42.21:799][ 17]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1520089031] Target Hit!
+[2023.12.18-04.42.21:799][ 17]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1520089031] Target Hit!
+[2023.12.18-04.42.21:808][ 18]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1520089031] Target Hit!
+[2023.12.18-04.42.21:808][ 18]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1520089031] Target Hit!
+[2023.12.18-04.42.21:816][ 19]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1520089031] Target Hit!
+[2023.12.18-04.42.21:816][ 19]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1520089031] Target Hit!
+[2023.12.18-04.42.21:824][ 20]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1520089031] Target Hit!
+[2023.12.18-04.42.21:824][ 20]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1520089031] Target Hit!
+[2023.12.18-04.42.21:832][ 21]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1520089031] Target Hit!
+[2023.12.18-04.42.21:832][ 21]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1520089031] Target Hit!
+[2023.12.18-04.42.21:841][ 22]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1520089031] Target Hit!
+[2023.12.18-04.42.21:841][ 22]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1520089031] Target Hit!
+[2023.12.18-04.42.30:666][ 81]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1520089031] Target Hit!
+[2023.12.18-04.42.32:566][309]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.35:299][637]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.35:299][637]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.35:308][638]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.35:308][638]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.35:316][639]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.35:316][639]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.35:325][640]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.35:325][640]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.35:333][641]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.35:333][641]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.35:342][642]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.35:342][642]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.35:350][643]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.35:350][643]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.35:358][644]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.35:358][644]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.35:366][645]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.35:366][645]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.35:375][646]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.35:375][646]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.36:366][765]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.36:367][765]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.36:374][766]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.36:374][766]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.36:383][767]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.36:383][767]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.36:391][768]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.36:391][768]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.36:400][769]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.36:400][769]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.36:408][770]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.36:408][770]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.36:417][771]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.36:417][771]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.36:425][772]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.36:425][772]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.36:433][773]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.36:433][773]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.36:441][774]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.36:441][774]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.36:450][775]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.36:450][775]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.36:458][776]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.36:458][776]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.36:467][777]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.36:467][777]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.36:475][778]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.36:475][778]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.36:483][779]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.36:483][779]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.36:491][780]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.36:491][780]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.36:500][781]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.36:500][781]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.36:508][782]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.36:508][782]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.36:517][783]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.36:517][783]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.36:525][784]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.36:525][784]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.36:533][785]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.36:533][785]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.36:792][816]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.36:792][816]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.36:800][817]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.36:800][817]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.36:808][818]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.36:808][818]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.36:817][819]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.36:817][819]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.36:825][820]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.36:825][820]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.36:833][821]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.36:833][821]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.36:841][822]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.36:841][822]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.36:849][823]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.36:850][823]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.36:858][824]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.36:858][824]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.42.42:500][501]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1520089031] Target Hit!
+[2023.12.18-04.42.45:637][873]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.18-04.42.45:637][873]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.12.18-04.42.45:638][873]LogSlate: Window 'FPS_Game Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2023.12.18-04.42.45:642][873]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.18-04.42.45:642][873]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.18-04.42.45:642][873]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2023.12.18-04.42.45:653][873]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.18-04.42.45:654][873]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.18-04.42.45:664][873]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.18-04.42.45:664][873]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2023.12.18-04.42.45:664][873]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.12.18-04.42.45:665][873]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.12.18-04.42.45:680][873]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2023.12.18-04.42.45:704][874]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2023.12.18-04.43.53:630][346]BlueprintLog: New page: Compile BP_Target
+[2023.12.18-04.43.53:648][346]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2023.12.18-04.43.55:605][570]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.18-04.43.55:608][570]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.12.18-04.43.55:608][570]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2023.12.18-04.43.55:609][570]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 1 ms (total: 6 ms)
+[2023.12.18-04.43.55:609][570]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.18-04.43.55:609][570]PIE: New page: PIE session: FirstPersonMap (Dec 17, 2023, 6:43:55 PM)
+[2023.12.18-04.43.55:609][570]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.12.18-04.43.55:612][570]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002616s)
+[2023.12.18-04.43.55:612][570]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.002638s)
+[2023.12.18-04.43.55:623][570]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2023.12.18-04.43.55:624][570]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.18-04.43.55:624][570]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.18-04.43.55:624][570]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.12.18-04.43.55:625][570]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.12.18-04.43.55:625][570]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.12.18-04.43.55:625][570]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.12.18-04.43.55:625][570]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.12.18-04.43.55:625][570]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2023.12.18-04.43.55:625][570]LogWorldPartition: Display: WorldPartition initialize took 786 us (total: 43 ms)
+[2023.12.18-04.43.55:625][570]LogPlayLevel: PIE: World Init took: (0.001549s)
+[2023.12.18-04.43.55:625][570]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2023.12.18-04.43.55:625][570]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.18-04.43.55:625][570]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.18-04.43.55:625][570]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.18-04.43.55:625][570]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.18-04.43.55:625][570]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.12.18-04.43.55:625][570]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.18-04.43.55:625][570]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.12.18-04.43.55:625][570]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.18-04.43.55:625][570]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.18-04.43.55:625][570]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.18-04.43.55:625][570]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.18-04.43.55:627][570]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.18-04.43.55:640][570]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- YM’s Beats)
+[2023.12.18-04.43.55:640][570]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.18-04.43.55:640][570]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.18-04.43.55:640][570]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.18-04.43.55:640][570]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2023.12.18-04.43.55:640][570]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2023.12.18-04.43.55:641][570]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2023.12.18-04.43.55:641][570]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2023.12.18-04.43.55:641][570]LogInit: FAudioDevice initialized with ID 6.
+[2023.12.18-04.43.55:641][570]LogAudio: Display: Audio Device (ID: 6) registered with world 'FirstPersonMap'.
+[2023.12.18-04.43.55:641][570]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2023.12.18-04.43.55:667][570]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.18-04.43.55:667][570]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.12.18-04.43.55:669][570]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2023.12.17-23.43.55
+[2023.12.18-04.43.55:669][570]LogWorld: Bringing up level for play took: 0.001782
+[2023.12.18-04.43.55:670][570]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2023.12.18-04.43.55:673][570]PIE: Server logged in
+[2023.12.18-04.43.55:673][570]PIE: Play in editor total start time 0.065 seconds.
+[2023.12.18-04.43.55:678][570]LogViewport: Scene viewport resized to 835x498, mode Windowed.
+[2023.12.18-04.44.02:237][325]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1520089031] Target Hit!
+[2023.12.18-04.44.04:562][604]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.44.07:370][941]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1520089031] Target Hit!
+[2023.12.18-04.44.12:995][616]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1520089031] Target Hit!
+[2023.12.18-04.44.14:403][785]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.44.18:770][309]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1520089031] Target Hit!
+[2023.12.18-04.44.20:754][547]LogBlueprintUserMessages: [BP_Target_C_UAID_2C0DA7FA3191D1C601_1566407032] Target Hit!
+[2023.12.18-04.44.23:097][825]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.18-04.44.23:097][825]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.12.18-04.44.23:097][825]LogSlate: Window 'FPS_Game Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2023.12.18-04.44.23:099][825]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.18-04.44.23:101][825]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.18-04.44.23:101][825]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2023.12.18-04.44.23:105][825]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.18-04.44.23:106][825]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.18-04.44.23:115][825]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.18-04.44.23:115][825]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2023.12.18-04.44.23:115][825]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.12.18-04.44.23:116][825]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.12.18-04.44.23:120][825]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2023.12.18-04.44.23:177][830]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2023.12.18-04.44.25:184][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2023.12.18-04.44.25:186][ 62]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.18-04.44.25:271][ 62]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/Blueprints/BP_Target" FILE="../../../../../../Users/Yousif/Desktop/UE/FPS_Tutorial/Content/FirstPerson/Blueprints/BP_Target.uasset" SILENT=true
+[2023.12.18-04.44.25:274][ 62]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_Target
+[2023.12.18-04.44.25:274][ 62]LogSavePackage: Moving '../../../../../../Users/Yousif/Desktop/UE/FPS_Tutorial/Saved/BP_TargetE3C3E3044CF04A56D2590F9855E34B78.tmp' to '../../../../../../Users/Yousif/Desktop/UE/FPS_Tutorial/Content/FirstPerson/Blueprints/BP_Target.uasset'
+[2023.12.18-04.44.25:279][ 62]LogFileHelpers: InternalPromptForCheckoutAndSave took 92 ms (total: 353 ms)
+[2023.12.18-04.44.25:281][ 62]AssetCheck: New page: Asset Save: BP_Target
+[2023.12.18-04.44.25:281][ 62]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_Target.BP_Target
+[2023.12.18-04.46.00:541][ 28]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2023.12.18-04.46.00:542][ 28]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.18-04.46.00:589][ 28]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/Blueprints/BP_Target" FILE="../../../../../../Users/Yousif/Desktop/UE/FPS_Tutorial/Content/FirstPerson/Blueprints/BP_Target.uasset" SILENT=true
+[2023.12.18-04.46.00:591][ 28]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_Target
+[2023.12.18-04.46.00:592][ 28]LogSavePackage: Moving '../../../../../../Users/Yousif/Desktop/UE/FPS_Tutorial/Saved/BP_Target35BB4D394229FB294CA7C3A5D8B0A40D.tmp' to '../../../../../../Users/Yousif/Desktop/UE/FPS_Tutorial/Content/FirstPerson/Blueprints/BP_Target.uasset'
+[2023.12.18-04.46.00:595][ 28]LogFileHelpers: InternalPromptForCheckoutAndSave took 52 ms (total: 406 ms)
+[2023.12.18-04.46.00:597][ 28]AssetCheck: New page: Asset Save: BP_Target
+[2023.12.18-04.46.00:597][ 28]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_Target.BP_Target
