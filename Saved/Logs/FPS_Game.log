@@ -1915,3 +1915,229 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.12.18-04.46.00:595][ 28]LogFileHelpers: InternalPromptForCheckoutAndSave took 52 ms (total: 406 ms)
 [2023.12.18-04.46.00:597][ 28]AssetCheck: New page: Asset Save: BP_Target
 [2023.12.18-04.46.00:597][ 28]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_Target.BP_Target
+[2023.12.18-04.48.55:317][211]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.12.18-04.48.55:327][211]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.12.18-04.48.55:332][211]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.12.18-04.48.55:339][212]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.12.18-04.49.07:239][393]LogContentBrowser: Attempting asset rename: NewBlueprint -> GM_TargetGame
+[2023.12.18-04.49.07:244][393]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.12.18-04.49.08:990][601]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/GM_TargetGame.GM_TargetGame
+[2023.12.18-04.49.08:990][601]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.18-04.49.08:990][601]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.18-04.49.09:053][601]LogViewport: Scene viewport resized to 1031x828, mode Windowed.
+[2023.12.18-04.49.21:513][ 73]LogViewport: Scene viewport resized to 1029x828, mode Windowed.
+[2023.12.18-04.49.21:526][ 74]LogViewport: Scene viewport resized to 1026x828, mode Windowed.
+[2023.12.18-04.49.21:538][ 75]LogViewport: Scene viewport resized to 1021x828, mode Windowed.
+[2023.12.18-04.49.21:551][ 76]LogViewport: Scene viewport resized to 1017x828, mode Windowed.
+[2023.12.18-04.49.21:564][ 77]LogViewport: Scene viewport resized to 1010x828, mode Windowed.
+[2023.12.18-04.49.21:578][ 78]LogViewport: Scene viewport resized to 1006x828, mode Windowed.
+[2023.12.18-04.49.21:590][ 79]LogViewport: Scene viewport resized to 1000x828, mode Windowed.
+[2023.12.18-04.49.21:603][ 80]LogViewport: Scene viewport resized to 997x828, mode Windowed.
+[2023.12.18-04.49.21:617][ 81]LogViewport: Scene viewport resized to 992x828, mode Windowed.
+[2023.12.18-04.49.21:630][ 82]LogViewport: Scene viewport resized to 990x828, mode Windowed.
+[2023.12.18-04.49.21:644][ 83]LogViewport: Scene viewport resized to 986x828, mode Windowed.
+[2023.12.18-04.49.21:658][ 84]LogViewport: Scene viewport resized to 984x828, mode Windowed.
+[2023.12.18-04.49.21:670][ 85]LogViewport: Scene viewport resized to 981x828, mode Windowed.
+[2023.12.18-04.49.21:683][ 86]LogViewport: Scene viewport resized to 979x828, mode Windowed.
+[2023.12.18-04.49.21:697][ 87]LogViewport: Scene viewport resized to 975x828, mode Windowed.
+[2023.12.18-04.49.21:708][ 88]LogViewport: Scene viewport resized to 972x828, mode Windowed.
+[2023.12.18-04.49.21:722][ 89]LogViewport: Scene viewport resized to 968x828, mode Windowed.
+[2023.12.18-04.49.21:735][ 90]LogViewport: Scene viewport resized to 966x828, mode Windowed.
+[2023.12.18-04.49.21:749][ 91]LogViewport: Scene viewport resized to 962x828, mode Windowed.
+[2023.12.18-04.49.21:762][ 92]LogViewport: Scene viewport resized to 960x828, mode Windowed.
+[2023.12.18-04.49.21:776][ 93]LogViewport: Scene viewport resized to 953x828, mode Windowed.
+[2023.12.18-04.49.21:788][ 94]LogViewport: Scene viewport resized to 948x828, mode Windowed.
+[2023.12.18-04.49.21:803][ 95]LogViewport: Scene viewport resized to 942x828, mode Windowed.
+[2023.12.18-04.49.21:817][ 96]LogViewport: Scene viewport resized to 936x828, mode Windowed.
+[2023.12.18-04.49.21:828][ 97]LogViewport: Scene viewport resized to 930x828, mode Windowed.
+[2023.12.18-04.49.21:842][ 98]LogViewport: Scene viewport resized to 928x828, mode Windowed.
+[2023.12.18-04.49.21:855][ 99]LogViewport: Scene viewport resized to 924x828, mode Windowed.
+[2023.12.18-04.49.21:868][100]LogViewport: Scene viewport resized to 922x828, mode Windowed.
+[2023.12.18-04.49.21:881][101]LogViewport: Scene viewport resized to 919x828, mode Windowed.
+[2023.12.18-04.49.21:904][103]LogViewport: Scene viewport resized to 917x828, mode Windowed.
+[2023.12.18-04.49.21:915][104]LogViewport: Scene viewport resized to 916x828, mode Windowed.
+[2023.12.18-04.49.21:929][105]LogViewport: Scene viewport resized to 913x828, mode Windowed.
+[2023.12.18-04.49.21:942][106]LogViewport: Scene viewport resized to 911x828, mode Windowed.
+[2023.12.18-04.49.21:955][107]LogViewport: Scene viewport resized to 908x828, mode Windowed.
+[2023.12.18-04.49.21:970][108]LogViewport: Scene viewport resized to 907x828, mode Windowed.
+[2023.12.18-04.49.21:983][109]LogViewport: Scene viewport resized to 905x828, mode Windowed.
+[2023.12.18-04.49.22:078][120]LogViewport: Scene viewport resized to 903x828, mode Windowed.
+[2023.12.18-04.49.22:182][132]LogViewport: Scene viewport resized to 901x828, mode Windowed.
+[2023.12.18-04.49.22:202][134]LogViewport: Scene viewport resized to 899x828, mode Windowed.
+[2023.12.18-04.49.22:556][176]LogViewport: Scene viewport resized to 896x828, mode Windowed.
+[2023.12.18-04.49.22:569][177]LogViewport: Scene viewport resized to 894x828, mode Windowed.
+[2023.12.18-04.49.22:580][178]LogViewport: Scene viewport resized to 889x828, mode Windowed.
+[2023.12.18-04.49.22:592][179]LogViewport: Scene viewport resized to 886x828, mode Windowed.
+[2023.12.18-04.49.22:603][180]LogViewport: Scene viewport resized to 880x828, mode Windowed.
+[2023.12.18-04.49.22:616][181]LogViewport: Scene viewport resized to 876x828, mode Windowed.
+[2023.12.18-04.49.22:627][182]LogViewport: Scene viewport resized to 871x828, mode Windowed.
+[2023.12.18-04.49.22:640][183]LogViewport: Scene viewport resized to 865x828, mode Windowed.
+[2023.12.18-04.49.22:652][184]LogViewport: Scene viewport resized to 862x828, mode Windowed.
+[2023.12.18-04.49.22:663][185]LogViewport: Scene viewport resized to 859x828, mode Windowed.
+[2023.12.18-04.49.22:676][186]LogViewport: Scene viewport resized to 858x828, mode Windowed.
+[2023.12.18-04.49.22:688][187]LogViewport: Scene viewport resized to 856x828, mode Windowed.
+[2023.12.18-04.49.23:040][229]LogViewport: Scene viewport resized to 859x828, mode Windowed.
+[2023.12.18-04.49.23:052][230]LogViewport: Scene viewport resized to 860x828, mode Windowed.
+[2023.12.18-04.49.23:066][231]LogViewport: Scene viewport resized to 863x828, mode Windowed.
+[2023.12.18-04.49.23:078][232]LogViewport: Scene viewport resized to 864x828, mode Windowed.
+[2023.12.18-04.49.23:091][233]LogViewport: Scene viewport resized to 867x828, mode Windowed.
+[2023.12.18-04.49.23:268][254]LogViewport: Scene viewport resized to 869x828, mode Windowed.
+[2023.12.18-04.49.23:321][260]LogViewport: Scene viewport resized to 871x828, mode Windowed.
+[2023.12.18-04.49.23:366][265]LogViewport: Scene viewport resized to 873x828, mode Windowed.
+[2023.12.18-04.49.23:386][267]LogViewport: Scene viewport resized to 875x828, mode Windowed.
+[2023.12.18-04.49.23:398][268]LogViewport: Scene viewport resized to 874x828, mode Windowed.
+[2023.12.18-04.49.23:410][269]LogViewport: Scene viewport resized to 876x828, mode Windowed.
+[2023.12.18-04.50.27:316][304]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2023.12.18-04.50.27:319][304]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.18-04.50.27:387][304]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2023.12.18-04.50.27:390][304]LogSavePackage: Moving output files for package: /Game/FirstPerson/Maps/FirstPersonMap
+[2023.12.18-04.50.27:390][304]LogSavePackage: Moving '../../../../../../Users/Yousif/Desktop/UE/FPS_Tutorial/Saved/FirstPersonMapBDBD6FD84B62357BBBF380B598145E04.tmp' to '../../../../../../Users/Yousif/Desktop/UE/FPS_Tutorial/Content/FirstPerson/Maps/FirstPersonMap.umap'
+[2023.12.18-04.50.27:392][304]LogFileHelpers: All files are already saved.
+[2023.12.18-04.50.27:395][304]LogFileHelpers: Saving map 'FirstPersonMap' took 0.024
+[2023.12.18-04.50.27:395][304]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/Blueprints/GM_TargetGame" FILE="../../../../../../Users/Yousif/Desktop/UE/FPS_Tutorial/Content/FirstPerson/Blueprints/GM_TargetGame.uasset" SILENT=true
+[2023.12.18-04.50.27:397][304]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/GM_TargetGame
+[2023.12.18-04.50.27:397][304]LogSavePackage: Moving '../../../../../../Users/Yousif/Desktop/UE/FPS_Tutorial/Saved/GM_TargetGameE4EA75CF482F1B041D23D79C9FFFB869.tmp' to '../../../../../../Users/Yousif/Desktop/UE/FPS_Tutorial/Content/FirstPerson/Blueprints/GM_TargetGame.uasset'
+[2023.12.18-04.50.27:403][304]LogFileHelpers: InternalPromptForCheckoutAndSave took 83 ms (total: 489 ms)
+[2023.12.18-04.50.27:404][304]AssetCheck: New page: Asset Save: multiple assets
+[2023.12.18-04.50.27:404][304]LogContentValidation: Display: Validating /Script/Engine.World /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap
+[2023.12.18-04.50.27:404][304]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/GM_TargetGame.GM_TargetGame
+[2023.12.18-04.50.36:084][336]LogTexture: Display: Building textures: /Game/FirstPerson/Textures/FirstPersonCrosshair.FirstPersonCrosshair (TFO_AutoDXT, 16x16 x1x1x1) (Required Memory Estimate: 0.102826 MB), EncodeSpeed: Fast
+[2023.12.18-04.52.11:661][354]LogSlate: Took 0.003087 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2023.12.18-04.52.18:501][892]BlueprintLog: New page: Compile GM_TargetGame
+[2023.12.18-04.52.18:512][892]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2023.12.18-04.53.37:231][ 68]BlueprintLog: New page: Compile GM_TargetGame
+[2023.12.18-04.53.37:242][ 68]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2023.12.18-04.55.51:290][646]BlueprintLog: New page: Compile GM_TargetGame
+[2023.12.18-04.55.51:303][646]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2023.12.18-04.56.10:897][990]BlueprintLog: New page: Compile GM_TargetGame
+[2023.12.18-04.56.10:910][990]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2023.12.18-04.57.26:279][ 95]LogSlate: Window 'Color Picker' being destroyed
+[2023.12.18-04.57.43:548][125]BlueprintLog: New page: Compile GM_TargetGame
+[2023.12.18-04.57.43:563][125]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2023.12.18-04.59.32:207][988]BlueprintLog: New page: Compile BP_Target
+[2023.12.18-04.59.32:227][988]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2023.12.18-04.59.42:590][859]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2023.12.18-04.59.42:593][859]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.18-04.59.42:713][859]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/Blueprints/BP_Target" FILE="../../../../../../Users/Yousif/Desktop/UE/FPS_Tutorial/Content/FirstPerson/Blueprints/BP_Target.uasset" SILENT=true
+[2023.12.18-04.59.42:718][859]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_Target
+[2023.12.18-04.59.42:718][859]LogSavePackage: Moving '../../../../../../Users/Yousif/Desktop/UE/FPS_Tutorial/Saved/BP_Target51B34D14459FF3051F694F9FDDCCE0A4.tmp' to '../../../../../../Users/Yousif/Desktop/UE/FPS_Tutorial/Content/FirstPerson/Blueprints/BP_Target.uasset'
+[2023.12.18-04.59.42:720][859]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/Blueprints/GM_TargetGame" FILE="../../../../../../Users/Yousif/Desktop/UE/FPS_Tutorial/Content/FirstPerson/Blueprints/GM_TargetGame.uasset" SILENT=true
+[2023.12.18-04.59.42:722][859]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/GM_TargetGame
+[2023.12.18-04.59.42:723][859]LogSavePackage: Moving '../../../../../../Users/Yousif/Desktop/UE/FPS_Tutorial/Saved/GM_TargetGame01F25F174821D957AD2AB6B6E3895C5A.tmp' to '../../../../../../Users/Yousif/Desktop/UE/FPS_Tutorial/Content/FirstPerson/Blueprints/GM_TargetGame.uasset'
+[2023.12.18-04.59.42:727][859]LogFileHelpers: InternalPromptForCheckoutAndSave took 133 ms (total: 622 ms)
+[2023.12.18-04.59.42:728][859]AssetCheck: New page: Asset Save: multiple assets
+[2023.12.18-04.59.42:728][859]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_Target.BP_Target
+[2023.12.18-04.59.42:728][859]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/GM_TargetGame.GM_TargetGame
+[2023.12.18-04.59.58:401][544]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.18-04.59.58:404][544]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.12.18-04.59.58:404][544]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2023.12.18-04.59.58:405][544]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 1 ms (total: 7 ms)
+[2023.12.18-04.59.58:405][544]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.18-04.59.58:406][544]PIE: New page: PIE session: FirstPersonMap (Dec 17, 2023, 6:59:58 PM)
+[2023.12.18-04.59.58:406][544]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.12.18-04.59.58:409][544]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002720s)
+[2023.12.18-04.59.58:409][544]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.002748s)
+[2023.12.18-04.59.58:417][544]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2023.12.18-04.59.58:418][544]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.18-04.59.58:418][544]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.18-04.59.58:418][544]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.12.18-04.59.58:419][544]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.12.18-04.59.58:419][544]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.12.18-04.59.58:419][544]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.12.18-04.59.58:419][544]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.12.18-04.59.58:420][544]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2023.12.18-04.59.58:420][544]LogWorldPartition: Display: WorldPartition initialize took 772 us (total: 44 ms)
+[2023.12.18-04.59.58:420][544]LogPlayLevel: PIE: World Init took: (0.001626s)
+[2023.12.18-04.59.58:420][544]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2023.12.18-04.59.58:420][544]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.18-04.59.58:420][544]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.18-04.59.58:420][544]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.18-04.59.58:420][544]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.18-04.59.58:420][544]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.12.18-04.59.58:420][544]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.18-04.59.58:420][544]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.12.18-04.59.58:420][544]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.18-04.59.58:420][544]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.18-04.59.58:420][544]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.18-04.59.58:420][544]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.18-04.59.58:422][544]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.18-04.59.58:434][544]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- YM’s Beats)
+[2023.12.18-04.59.58:434][544]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.18-04.59.58:434][544]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.18-04.59.58:434][544]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.18-04.59.58:436][544]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2023.12.18-04.59.58:436][544]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2023.12.18-04.59.58:437][544]LogInit: FAudioDevice initialized with ID 7.
+[2023.12.18-04.59.58:437][544]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2023.12.18-04.59.58:437][544]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2023.12.18-04.59.58:437][544]LogAudio: Display: Audio Device (ID: 7) registered with world 'FirstPersonMap'.
+[2023.12.18-04.59.58:437][544]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2023.12.18-04.59.58:488][544]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.18-04.59.58:488][544]LogLoad: Game class is 'GM_TargetGame_C'
+[2023.12.18-04.59.58:491][544]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2023.12.17-23.59.58
+[2023.12.18-04.59.58:491][544]LogWorld: Bringing up level for play took: 0.002361
+[2023.12.18-04.59.58:493][544]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2023.12.18-04.59.58:495][544]PIE: Server logged in
+[2023.12.18-04.59.58:496][544]PIE: Play in editor total start time 0.092 seconds.
+[2023.12.18-04.59.58:502][544]LogViewport: Scene viewport resized to 835x498, mode Windowed.
+[2023.12.18-05.00.03:313][ 82]LogBlueprintUserMessages: [GM_TargetGame_C_0] 1
+[2023.12.18-05.00.05:163][304]LogBlueprintUserMessages: [GM_TargetGame_C_0] 2
+[2023.12.18-05.00.06:739][493]LogBlueprintUserMessages: [GM_TargetGame_C_0] 3
+[2023.12.18-05.00.06:874][509]LogBlueprintUserMessages: [GM_TargetGame_C_0] 4
+[2023.12.18-05.00.07:014][526]LogBlueprintUserMessages: [GM_TargetGame_C_0] 5
+[2023.12.18-05.00.07:181][546]LogBlueprintUserMessages: [GM_TargetGame_C_0] 6
+[2023.12.18-05.00.07:338][565]LogBlueprintUserMessages: [GM_TargetGame_C_0] 7
+[2023.12.18-05.00.07:489][583]LogBlueprintUserMessages: [GM_TargetGame_C_0] 8
+[2023.12.18-05.00.07:638][601]LogBlueprintUserMessages: [GM_TargetGame_C_0] 9
+[2023.12.18-05.00.07:831][624]LogBlueprintUserMessages: [GM_TargetGame_C_0] 10
+[2023.12.18-05.00.08:005][645]LogBlueprintUserMessages: [GM_TargetGame_C_0] 11
+[2023.12.18-05.00.08:180][666]LogBlueprintUserMessages: [GM_TargetGame_C_0] 12
+[2023.12.18-05.00.08:339][685]LogBlueprintUserMessages: [GM_TargetGame_C_0] 13
+[2023.12.18-05.00.08:514][706]LogBlueprintUserMessages: [GM_TargetGame_C_0] 14
+[2023.12.18-05.00.08:747][734]LogBlueprintUserMessages: [GM_TargetGame_C_0] 15
+[2023.12.18-05.00.08:914][754]LogBlueprintUserMessages: [GM_TargetGame_C_0] 16
+[2023.12.18-05.00.09:124][779]LogBlueprintUserMessages: [GM_TargetGame_C_0] 17
+[2023.12.18-05.00.09:264][796]LogBlueprintUserMessages: [GM_TargetGame_C_0] 18
+[2023.12.18-05.00.09:447][818]LogBlueprintUserMessages: [GM_TargetGame_C_0] 19
+[2023.12.18-05.00.09:613][838]LogBlueprintUserMessages: [GM_TargetGame_C_0] 20
+[2023.12.18-05.00.09:772][857]LogBlueprintUserMessages: [GM_TargetGame_C_0] 21
+[2023.12.18-05.00.09:939][877]LogBlueprintUserMessages: [GM_TargetGame_C_0] 22
+[2023.12.18-05.00.10:105][897]LogBlueprintUserMessages: [GM_TargetGame_C_0] 23
+[2023.12.18-05.00.10:280][918]LogBlueprintUserMessages: [GM_TargetGame_C_0] 24
+[2023.12.18-05.00.10:456][939]LogBlueprintUserMessages: [GM_TargetGame_C_0] 25
+[2023.12.18-05.00.12:472][181]LogBlueprintUserMessages: [GM_TargetGame_C_0] 26
+[2023.12.18-05.00.12:631][200]LogBlueprintUserMessages: [GM_TargetGame_C_0] 27
+[2023.12.18-05.00.12:831][224]LogBlueprintUserMessages: [GM_TargetGame_C_0] 28
+[2023.12.18-05.00.13:031][248]LogBlueprintUserMessages: [GM_TargetGame_C_0] 29
+[2023.12.18-05.00.13:214][270]LogBlueprintUserMessages: [GM_TargetGame_C_0] 30
+[2023.12.18-05.00.18:756][935]LogBlueprintUserMessages: [GM_TargetGame_C_0] 31
+[2023.12.18-05.00.20:389][131]LogBlueprintUserMessages: [GM_TargetGame_C_0] 32
+[2023.12.18-05.00.21:947][314]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.18-05.00.21:947][314]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.12.18-05.00.21:948][314]LogSlate: Window 'FPS_Game Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2023.12.18-05.00.21:950][314]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.18-05.00.21:951][314]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.18-05.00.21:951][314]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2023.12.18-05.00.21:956][314]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.18-05.00.21:957][314]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.18-05.00.21:967][314]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2023.12.18-05.00.21:967][314]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.12.18-05.00.21:968][314]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.12.18-05.00.21:972][314]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2023.12.18-05.00.22:021][319]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2023.12.18-05.00.24:262][583]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2023.12.18-05.00.38:323][239]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.18-05.00.38:353][239]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/Blueprints/GM_TargetGame" FILE="../../../../../../Users/Yousif/Desktop/UE/FPS_Tutorial/Content/FirstPerson/Blueprints/GM_TargetGame.uasset" SILENT=true
+[2023.12.18-05.00.38:357][239]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/GM_TargetGame
+[2023.12.18-05.00.38:357][239]LogSavePackage: Moving '../../../../../../Users/Yousif/Desktop/UE/FPS_Tutorial/Saved/GM_TargetGame02A7E4A041F6CF999B12C88C75C14760.tmp' to '../../../../../../Users/Yousif/Desktop/UE/FPS_Tutorial/Content/FirstPerson/Blueprints/GM_TargetGame.uasset'
+[2023.12.18-05.00.38:360][239]LogFileHelpers: InternalPromptForCheckoutAndSave took 37 ms (total: 660 ms)
+[2023.12.18-05.00.38:362][239]AssetCheck: New page: Asset Save: GM_TargetGame
+[2023.12.18-05.00.38:362][239]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/GM_TargetGame.GM_TargetGame
+[2023.12.18-05.00.50:141][647]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.18-05.00.50:190][647]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/Blueprints/BP_Target" FILE="../../../../../../Users/Yousif/Desktop/UE/FPS_Tutorial/Content/FirstPerson/Blueprints/BP_Target.uasset" SILENT=true
+[2023.12.18-05.00.50:194][647]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_Target
+[2023.12.18-05.00.50:194][647]LogSavePackage: Moving '../../../../../../Users/Yousif/Desktop/UE/FPS_Tutorial/Saved/BP_Target0F6AB0794EEC6ACDD19544978FA52383.tmp' to '../../../../../../Users/Yousif/Desktop/UE/FPS_Tutorial/Content/FirstPerson/Blueprints/BP_Target.uasset'
+[2023.12.18-05.00.50:199][647]LogFileHelpers: InternalPromptForCheckoutAndSave took 57 ms (total: 717 ms)
+[2023.12.18-05.00.50:200][647]AssetCheck: New page: Asset Save: BP_Target
+[2023.12.18-05.00.50:200][647]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_Target.BP_Target
+[2023.12.18-05.01.50:087][148]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
